@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <body>
+        <h1 id="primary">Etch-A-Sketch</h1>
+        <div id="large">
+            <button id = "btn" onclick="reset()">RESET</button>
+            <div id="separate">
+                <h4 id="select">Choose your dimensions with the slider below to start:</h4>
+                <div id="size"></div>
+                <div id="dimensions"></div>
+                <div class="slidecontainer">
+                    <input type="range" min="10" max="50" value="16" class="slider" id="myRange">
+                </div>
+            </div>
+        </div>
+        <div id="instructions">Drag your mouse over the grid and let your imagination do the rest!</div>
+        <div id="grid"></div> 
+        <script src="test.js"></script>
+    </body>
+</html>
